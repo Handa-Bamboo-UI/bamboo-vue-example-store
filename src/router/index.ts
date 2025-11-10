@@ -5,22 +5,9 @@ import login from "@/pages/login.vue";
 import admin from "@/layouts/admin.vue";
 import goodsList from "@/pages/goods/list.vue";
 import categoryList from "@/pages/category/list.vue";
-import UserList from "@/pages/category/list.vue";
-import OrderList from "@/pages/category/list.vue";
-import CommentList from"@/pages/category/list.vue";
-import ImageList from "@/pages/category/list.vue";
-import NoticeList from"@/pages/category/list.vue";
-import SettingBase from "@/pages/category/list.vue";
-import CouponList from "@/pages/category/list.vue";
-import ManagerList from "@/pages/category/list.vue";
-import AccessList from "@/pages/category/list.vue";
-import RoleList from "@/pages/category/list.vue";
-import SkusList from "@/pages/category/list.vue";
-import LevelList from "@/pages/category/list.vue";
-import SettingBuy from "@/pages/category/list.vue";
-import SettingShip from "@/pages/category/list.vue";
-import DistributionIndex from "@/pages/category/list.vue";
-import DistributionSetting from "@/pages/category/list.vue";
+import imageList from "@/pages/image/list.vue";
+
+
 
 const routes = [
   {
@@ -72,6 +59,14 @@ const asyncRoutes = [
     component: categoryList,
     meta: {
       title: "分类列表",
+    },
+  },
+  {
+    path: "/image/list",
+    name: "/image/list",
+    component: imageList,
+    meta: {
+      title: "图片列表",
     },
   },
 ];

@@ -16,7 +16,7 @@
                 </router-view>
             </el-main>
         </el-container>
-             <el-header>
+             <el-header style="height: 0;">
           <f-header></f-header>
         </el-header>
     </el-container>

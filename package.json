@@ -1,0 +1,38 @@
+{
+  "name": "handa-design-store",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "@vueuse/core": "^14.0.0",
+    "@vueuse/integrations": "^14.0.0",
+    "axios": "^1.13.2",
+    "echarts": "^6.0.0",
+    "element-plus": "^2.11.7",
+    "gsap": "^3.13.0",
+    "nprogress": "^0.2.0",
+    "universal-cookie": "^8.0.1",
+    "vue": "^3.5.22",
+    "vue-router": "4",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
+    "typescript": "~5.9.3",
+    "vite": "npm:rolldown-vite@7.1.14",
+    "vite-plugin-windicss": "^1.9.4",
+    "vue-tsc": "^3.1.0",
+    "windicss": "^3.5.6"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.1.14"
+  }
+}

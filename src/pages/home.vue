@@ -98,6 +98,7 @@ getStatic2().then((res:any) => {
 
 .home-card {
   border-radius: 29px;
+  padding: 10px;
   background-color: #f4f7ff;
   border: solid 1px #b5b5b53a;
   box-shadow: 0px 0px 20px 0px rgba(70, 54, 115, 0.08) !important;

@@ -1,6 +1,7 @@
 <template>
-  <el-drawer v-model="showDrawer" :title="title" :size="size" :destroy-on-close="destroyOnClose" :close-on-click-modal="closeOnClickModal" class="min-w-[480px] max-w-[900px] opacity-94 bg-light-50 z-[9999]">
+  <el-drawer v-model="showDrawer" title="" :size="size" :destroy-on-close="destroyOnClose" :close-on-click-modal="closeOnClickModal" class="min-w-[480px] max-w-[900px] opacity-94 bg-light-50 z-[9999]">
      <div class="formDrawer">
+       <span class="text-3xl text-left block mt-4 mb-4 font-bold text-indigo-500">{{title}}</span>
         <div class="body">
             <slot></slot>
         </div>
